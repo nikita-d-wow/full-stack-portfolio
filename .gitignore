@@ -1,12 +1,5 @@
-# .gitignore
-node_modules/
-dist/
-build/
-.env
-.env.local
-logs
-*.log
-.DS_Store
-Thumbs.db
 .vscode/
+*.log
 *.tsbuildinfo
+node_modules/
+.env
