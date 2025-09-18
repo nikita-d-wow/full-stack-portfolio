@@ -45,8 +45,11 @@ A personal fullstack portfolio project showcasing modern web development skills 
 - Schema modeling with Mongoose.
 - Integrate MongoDB with Express
 
-feature/setup
-Rebase
+
+Setup + Rebase done successfully
+
+Docs and Setup Merge completed Successfully
+
 
 "Setup branch edit"
 
@@ -57,4 +60,4 @@ Setup + Rebase done successfully
 branches
 
 Docs and Setup Merge completed Successfully
-main
+
