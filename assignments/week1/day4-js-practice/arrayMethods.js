@@ -1,7 +1,7 @@
 /* eslint-env node */
 //arraymethods
 
-//Practrice with ES6+ array methods: map, filter, reduce, find, findIndex
+//Practrice with ES6+ array methods: map, filter, reduce
 
 //Sample user data
 
