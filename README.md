@@ -44,3 +44,9 @@ A personal fullstack portfolio project showcasing modern web development skills 
 - Learn NoSQL concepts & CRUD operations.
 - Schema modeling with Mongoose.
 - Integrate MongoDB with Express.
+
+"Setup branch edit"
+
+branches
+
+Docs and Setup Merge completed Successfully
