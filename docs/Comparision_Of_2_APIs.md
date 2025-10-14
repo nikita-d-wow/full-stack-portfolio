@@ -1,0 +1,33 @@
+### API Comparison
+
+**JSONPlaceholder**
+
+- Base URL: `https://jsonplaceholder.typicode.com`
+- Purpose: Mock API for testing & prototyping
+- Authentication: Not required
+- Data Type: Dummy / Static
+- Supported HTTP Methods: GET, POST, PUT, PATCH, DELETE
+- Use Case: Practicing REST APIs, CRUD testing, learning API structure
+- Ideal For: Beginners & rapid testing
+- Example Endpoint: `/posts`
+- Response Format: JSON
+- Rate Limiting: None
+- Complexity Level: Low
+- Error Handling Required: Minimal
+- Scalability: Not intended for production
+
+**OpenWeatherMap**
+
+- Base URL: `https://api.openweathermap.org/data/2.5`
+- Purpose: Real-time weather and environmental data API
+- Authentication: Required (API key)
+- Data Type: Live, real-world weather & air quality data
+- Supported HTTP Methods: GET
+- Use Case: Building weather apps, dashboards, IoT integrations, real-world projects
+- Ideal For: Intermediate to advanced developers
+- Example Endpoint: `/weather?q={city}`
+- Response Format: JSON
+- Rate Limiting: Yes — depends on account type
+- Complexity Level: Moderate (auth, query params, error handling)
+- Error Handling Required: More robust handling (e.g., 401, 404, 429)
+- Scalability: Used in production-grade applications
