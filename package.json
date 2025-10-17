@@ -28,5 +28,11 @@
     "lint-staged": "^16.1.6",
     "prettier": "^3.6.2",
     "ts-prune": "^0.10.3"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   }
 }
