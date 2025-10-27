@@ -1,8 +1,8 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import styled, { css } from 'styled-components';
-import { toggleTask, deleteTask } from '../../store/todoSlice';
-import { setLastDeleted } from '../../store/undoSLice';
+import { toggleTask, deleteTask } from '../../redux/todoSlice';
+import { setLastDeleted } from '../../redux/undoSLice';
 import { COLORS } from '../../utils/constants';
 import EmptyState from './EmptyState';
 

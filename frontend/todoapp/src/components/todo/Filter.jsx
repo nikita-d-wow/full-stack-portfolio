@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Dropdown from '../common/Dropdown';
 import { COLORS, FILTERS } from '../../utils/constants';
 import { useDispatch, useSelector } from 'react-redux';
-import { setFilter } from '../../store/todoSlice';
+import { setFilter } from '../../redux/todoSlice';
 
 const Wrapper = styled.div`
   display: flex;

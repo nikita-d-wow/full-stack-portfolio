@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { useDispatch } from 'react-redux';
-import { addTask } from '../../store/todoSlice';
+import { addTask } from '../../redux/todoSlice';
 import { COLORS } from '../../utils/constants';
 import Button from '../common/Button';
 
@@ -19,7 +19,8 @@ const Form = styled.form`
 const Row = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 1rem;
+  align-items: stretch;
 `;
 
 const InputWrapper = styled.div`
@@ -46,6 +47,8 @@ const Input = styled.input`
 const AddButtonWrapper = styled.div`
   flex: 0 0 auto;
   min-width: 100px;
+  display: flex;
+  align-items: center;
 
   @media (max-width: 500px) {
     width: 100%;
@@ -87,7 +90,7 @@ export default function AddTodo() {
         </InputWrapper>
         <AddButtonWrapper>
           <Button type="submit" $type="PRIMARY">
-            Add
+            ADD
           </Button>
         </AddButtonWrapper>
       </Row>

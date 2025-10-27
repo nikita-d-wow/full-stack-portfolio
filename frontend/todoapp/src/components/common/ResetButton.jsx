@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { useDispatch } from 'react-redux';
-import { resetAll } from '../../store/todoSlice';
+import { resetAll } from '../../redux/todoSlice';
 import { COLORS } from '../../utils/constants';
 
 const Reset = styled.button`

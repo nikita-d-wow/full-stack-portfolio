@@ -4,7 +4,7 @@ import { COLORS } from '../../utils/constants';
 
 const baseStyle = css`
   border: none;
-  padding: 0.6rem 1.2rem;
+  padding: 0.7rem 1.2rem;
   font-weight: 600;
   border-radius: 8px;
   cursor: pointer;

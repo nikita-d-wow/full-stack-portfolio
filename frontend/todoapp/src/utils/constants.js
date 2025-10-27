@@ -30,7 +30,7 @@ export const COLORS = {
   black: '#000000',
   zinc: '#28283d65',
 
-  // 🎨 Core Palette
+  // Core Palette
   terracotta: '#B77466', // deep warm clay
   cream: '#FFE1AF', // soft beige cream
   sand: '#E2B59A', // muted warm sand
